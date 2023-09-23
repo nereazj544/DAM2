@@ -38,8 +38,7 @@ public class Ejercico11 {
         escribir.newLine();
         escribir.close();
 
-        BufferedReader ent = new BufferedReader(new FileReader(
-                "C:\\Users\\nzjha\\Desktop\\CLASE23-24\\ASIGNATURAS\\ADT\\eclipse\\ADT\\src\\Tema1\\Actividades\\T2\\txt\\añadir.txt"));
+        BufferedReader ent = new BufferedReader(new FileReader("C:\\Users\\nzjha\\Desktop\\CLASE23-24\\ASIGNATURAS\\ADT\\eclipse\\ADT\\src\\Tema1\\Actividades\\T2\\txt\\añadir.txt"));
         String texto = "";
         linea = ent.readLine();
         while (linea != null) {
