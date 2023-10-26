@@ -1,7 +1,10 @@
 package PROGRAMACION.ejercicospsudocodigo;
 
 import java.util.Scanner;
-
+/*
+Pedir 10 números y mostrar la media de los números positivos, la media de los
+números negativos y la cantidad de ceros.
+*/
 public class ejercico3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
