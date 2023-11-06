@@ -1,4 +1,4 @@
-package REPASO.ADT;
+package REPASO.ADT.FICHEROSTXT;
 
 import java.io.File;
 

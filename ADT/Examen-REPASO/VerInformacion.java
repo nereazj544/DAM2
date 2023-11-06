@@ -1,4 +1,4 @@
-package REPASO.ADT;
+package REPASO.ADT.FICHEROSTXT;
 
 import java.io.File;
 import java.util.Scanner;
@@ -8,6 +8,7 @@ public class VerInformacion {
         System.out.println("Ruta del directorio: ");
         Scanner sc = new Scanner(System.in);
         String ruta =  sc.nextLine();
+        sc.close();
         System.out.println("Informacion sobre el fichero (actual): " + ruta);
         // String ruta = "src\\REPASO\\ADT";
         File file = new File(ruta);
